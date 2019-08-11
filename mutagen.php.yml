@@ -1,0 +1,24 @@
+sync:
+  defaults:
+    mode: "one-way-safe"
+    ignore:
+      paths:
+        - .idea
+        - .vscode
+        - node_modules
+        - /vendor/
+        - npm-debug.log
+        - yarn-error.log
+        - bootstrap/compiled.php
+        - app/storage
+        - public/storage
+        - public/hot
+        - public_html/storage
+        - public_html/hot
+        - storage/*.key
+        - .env
+        - Homestead.yaml
+        - Homestead.json
+        - /.vagrant
+        - .phpunit.result.cache
+      vcs: true

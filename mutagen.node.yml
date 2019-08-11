@@ -1,0 +1,19 @@
+sync:
+  defaults:
+    mode: "one-way-safe"
+    ignore:
+      paths:
+        - .idea
+        - .vscode
+        - node_modules
+        - .next
+        - .nuxt
+        - .vuepress/dist
+        - .serverless/
+        - .fusebox/
+        - .dynamodb/
+        - .env
+        - .env.test
+        - .cache
+        - .yarn-integrity
+      vcs: true

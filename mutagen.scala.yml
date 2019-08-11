@@ -1,0 +1,10 @@
+sync:
+  defaults:
+    mode: "one-way-safe"
+    ignore:
+      paths:
+        - .idea
+        - .vscode
+        - .bloop
+        - target
+      vcs: true
