@@ -1,0 +1,13 @@
+sync:
+  defaults:
+    mode: "one-way-replica"
+    ignore:
+      paths:
+        - .idea
+        - .vscode
+        - venv
+        - vendor
+        - "*.egg-info"
+        - dist
+        - build
+      vcs: true
